@@ -1,8 +1,10 @@
 ---?image=assets/images/gitpitch-audience.jpg
 @title[Platform Build Win Emulator Lab]
-<br><br>
+<br>
+<!---  Uncomment once gitPitch is done
 <span style="font-size:0.75em" >This slide deck has moved to:  https://gitpitch.com/tianocore-training/EDK_II_CI_Unit_Test_Framework/master#/</span>
-<br><br><br>
+-->
+<br><br>
 ## <span class="gold"   >UEFI & EDK II Training</span>
 
 <span style="font-size:0.95em" > EDK II Continuous Integration (CI) Unit Test Framework for Developer Validation </span>
@@ -11,8 +13,9 @@
 <span style="font-size:0.75em" ><a href='http://www.tianocore.org'>tianocore.org</a></span>
 <br>
 <span style="font-size:0.75em" >See also <a href="https://github.com/Laurie0131/EDK_II_CI_Unit_Test_Framework/blob/master/UnitTestFramework_Lab.md">UnitTestFramework_Lab.md</a> for Unit Test Framework Lab
+<br>
 
-
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:60% "><span style="font-size:0.75em;" ><b>ONLY</b> this title slide is complete<br>&nbsp;</span></p>)
 Note:
   PITCHME.md for UEFI / EDK II Training  EDK II Continuous Integration (CI) Unit Test Framework for Developer Validation
 

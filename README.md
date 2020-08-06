@@ -35,5 +35,3 @@ EDK II Continuous Integration (CI) Unit Test Framework for Developer Validation
 
 To see the Slides goto https://gitpitch.com/Laurie0131/EDK_II_CI_Unit_Test_Framework/master#/
 -->
-
-goto https://gitpitch.com/Laurie0131/EDK_II_CI_Unit_Test_Framework/master#/
