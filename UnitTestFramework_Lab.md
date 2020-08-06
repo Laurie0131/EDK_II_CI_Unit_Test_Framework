@@ -5,14 +5,15 @@ The following  is a lab for using the Unit Test Framework
 
 This lab will show how to build and run a unit test sample code in the host-based environment.
 
-- Step by step guide for the Stuart CI build and run the Sample Unit Test from `UnitTestFrameworkPkg`
+- Step by step guide for the Stuart CI build and run for the Sample Unit Test from `UnitTestFrameworkPkg`
+- Steps to build for the Non-Stuart CI build and run
 - Create a Host Unit Test Framework for a simple function
 - Add a UEFI Shell Unit Test Framework using the `EmulatorPkg`
 
 ### **Prerequisites**
 * Windows 10:
-  * CI Visual Studio VS2017 or VS2019
-  * Non CI - Visual Studio VS2015, VS2017 or VS2019
+  * Stuart CI Visual Studio VS2017 or VS2019
+  * Non-Stuart CI - Visual Studio VS2015, VS2017 or VS2019
   * Windows SDK (for rc)
   * Windows WDK (for Capsules)
 * Ubuntu 18.04 or Fedora
@@ -33,7 +34,7 @@ $ cd edk2
 $ git submodule update --init
 ```
 
-## **2. Build and Run for CI Locally**
+## **2. Build and Run for Stuart CI Locally**
 The following steps are for Building with the CI Pytool locally for the UnitTestFrameworkPkg Host based Unit Tests. Note that the "`<Your tag>`" in the examples below needs to be one of the prerequisite compilers above:
 * Windows - Visual Studio "`2017`" or "`2019`"
 * Ubuntu 18.04 or Fedora - "`GCC5`" 
@@ -92,9 +93,9 @@ PROGRESS - Success
 Build the `BaseTools`
 ```
 
-## **3. Build and Run for Windows Non-CI**
+## **3. Build and Run for Windows Non-Stuart CI**
 
-Additional Prerequisites for Non-CI
+Additional Prerequisites for Non-Stuart CI
 
 * Download the Nasm Assembler and then copy the expanded zip contents to `C:/Nasm`. Create the directory if it does not exist.  Download from: https://www.nasm.us/pub/nasm/releasebuilds/2.12.02/win64/
 
