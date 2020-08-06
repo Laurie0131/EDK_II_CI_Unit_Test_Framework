@@ -104,17 +104,19 @@ Open A Visual Studio Command Prompt
 * From the "Windows" key scroll down in the applications menu to **folder** of "Visual Studio 20xx" where xx is either 15, 17 or 19. (make sure you click on the folder and not the application itself)
 * Then click on the command prompt for "Developer Command Prompt for VS20xx"
 * This will open a black Command line window for you to invoke the build and run commands
+* At the command prompt Change directgory (Cd) to the WorkSpace/edk2 directory (the directory from the `git clone` above)
 
 Build the BaseTools 
+At the command prompt in the directory of your Workspace/edk2 invoke the following:
 
-```shell
+```shell 
 $ edksetup.bat Rebuild
 ```
 Build the `UnitTestFrameworkPkg` Unit Test Host, below builds using Visual Studio 2015, 
 ```shell
 $ build -b NOOPT -t VS2015x86 -a X64 -p UnitTestFrameworkPkg\Test\UnitTestFrameworkPkgHostTest.dsc 
 ```
-For other Visual Studio versions:
+For other Visual Studio versions change the "`-t`" option to:
 * 2017 use `-t VS2017` 
 * 2019 use `-t VS2019`
 
