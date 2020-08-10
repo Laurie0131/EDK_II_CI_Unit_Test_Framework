@@ -65,7 +65,7 @@ $ python BaseTools\Edk2ToolsBuild.py -t TOOL_CHAIN_TAG
 $ stuart_ci_build -c .pytool\CISettings.py TOOL_CHAIN_TAG=<Your TAG> -p UnitTestFrameworkPkg -t NOOPT -a X64
 ```
 
-### **Output from CI Build and Run**
+### **Output from Stuart CI Build and Run**
 
 The return from the CI Build will be `ErrorLevel==0` on successful Unit test passing
 
