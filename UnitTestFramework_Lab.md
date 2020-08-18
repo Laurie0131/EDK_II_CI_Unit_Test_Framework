@@ -343,10 +343,14 @@ BOOLEAN PrimeNumber(
 	INTN i;
 	BOOLEAN NumberisPrime = TRUE;  // True if the number passed is prime
 	if (Number <= 1) NumberisPrime = FALSE; // not prime
-	for (i = 2; (i * i) <= Number; i++) {  // Square root of incrementor is <= Number passed
-		if (Number % i == 0)  // if the number MOD incrementor than the number is not prime
+	for (i = 2; (i * i) <= Number; i++) { // Square root of incrementor is <= Number passed
+		if (Number % i == 0) // if the number MOD incrementor than the number is not prime
 			NumberisPrime = FALSE; // not prime
 	}
+
+	return (NumberisPrime);  // Prime number
+}
+
 ```
 
 #### 5.3. Create a file called  `CheckPrimeUnitTest.c`
